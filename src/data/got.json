@@ -480,6 +480,7 @@
       "serves": ["Daenerys Targaryen"]
     },
     {
+      "id": 43,
       "characterName": "Daenerys Targaryen",
       "houseName": "Targaryen",
       "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjA4MzIxMTQwMF5BMl5BanBnXkFtZTcwMzY2NDg1Nw@@._V1._SX100_SY140_.jpg",
@@ -522,6 +523,7 @@
       "killedBy": ["Jon Snow"]
     },
     {
+      "id": 44,
       "characterName": "Dagmer Cleftjaw",
       "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BYWRlYzI5ZTQtODU0My00MWUyLWExNTMtNGQ4OTIwYzE2YzFiXkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1._SX100_SY140_.jpg",
       "characterImageFull": "https://images-na.ssl-images-amazon.com/images/M/MV5BYWRlYzI5ZTQtODU0My00MWUyLWExNTMtNGQ4OTIwYzE2YzFiXkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1_.jpg",
@@ -530,6 +532,7 @@
       "actorLink": "/name/nm0408591/"
     },
     {
+      "id": 45,
       "characterName": "Daisy",
       "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BMDk2ODRhNzItOGZhNi00YTUyLThkMzctMDQ2Zjg5MzY1NTI2XkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1._SX100_SY140_.jpg",
       "characterImageFull": "https://images-na.ssl-images-amazon.com/images/M/MV5BMDk2ODRhNzItOGZhNi00YTUyLThkMzctMDQ2Zjg5MzY1NTI2XkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1_.jpg",
@@ -538,6 +541,7 @@
       "actorLink": "/name/nm3996678/"
     },
     {
+      "id": 46,
       "characterName": "Davos Seaworth",
       "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BNTMwODc0NzI4Ml5BMl5BanBnXkFtZTcwNzY3NDk4OQ@@._V1._SX100_SY140_.jpg",
       "characterImageFull": "https://images-na.ssl-images-amazon.com/images/M/MV5BNTMwODc0NzI4Ml5BMl5BanBnXkFtZTcwNzY3NDk4OQ@@._V1_.jpg",
@@ -548,6 +552,7 @@
       "parentOf": ["Matthos Seaworth"]
     },
     {
+      "id": 47,
       "characterName": "Dickon Tarly",
       "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BNzk1YjNlZGQtNTU0MC00OGZmLThhYTQtZDM1ZjI2OGNlZGQxXkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1._SX100_SY140_.jpg",
       "characterImageFull": "https://images-na.ssl-images-amazon.com/images/M/MV5BNzk1YjNlZGQtNTU0MC00OGZmLThhYTQtZDM1ZjI2OGNlZGQxXkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1_.jpg",
@@ -569,6 +574,7 @@
       "siblings": ["Samwell Tarly", "Talla Tarly"]
     },
     {
+      "id": 48,
       "characterName": "Dongo the Giant",
       "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BNTRjNGYxNWItYmRhNS00MDY3LWFmZTItMzYzNTEwMjg3YTA1XkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1._SX100_SY140_.jpg",
       "characterImageFull": "https://images-na.ssl-images-amazon.com/images/M/MV5BNTRjNGYxNWItYmRhNS00MDY3LWFmZTItMzYzNTEwMjg3YTA1XkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_.jpg",
@@ -578,12 +584,14 @@
       "killedBy": ["Night's Watchman"]
     },
     {
+      "id": 49,
       "characterName": "Donnel Waynwood",
       "characterLink": "/character/ch0544229/",
       "actorName": "Alisdair Simpson",
       "actorLink": "/name/nm1368037/"
     },
     {
+      "id": 50,
       "characterName": "Dontos Hollard",
       "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BNzUzYzg5NGUtOWE5Zi00Y2MwLTg2YzQtMDZlOWE1NDZjZmFkXkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1._SX100_SY140_.jpg",
       "characterImageFull": "https://images-na.ssl-images-amazon.com/images/M/MV5BNzUzYzg5NGUtOWE5Zi00Y2MwLTg2YzQtMDZlOWE1NDZjZmFkXkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1_.jpg",

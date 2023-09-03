@@ -1,15 +1,16 @@
 ---
 import Layout from '../layouts/Layout.astro'
 import data from '../data/got.json'
+import Card2 from '../components/Card2.astro';
 ---
 
 <Layout title='Welcome to Astro.'>
-  <main class='relative'>
+  <main class='relative py-10'>
     
     <header class='text-center'>
       <h1
         transition:name='header'
-        class='bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-4xl font-extrabold text-transparent sm:text-5xl py-3'
+        class='bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-4xl font-extrabold text-transparent sm:text-6xl py-3'
       >
         Game of Thrones
       </h1>
@@ -19,26 +20,13 @@ import data from '../data/got.json'
     >
       {
         data.characters
-          .filter((ch) => ch.id && ch.characterImageThumb)
-          .map((movie) => (
-            <div class='border-[1px] rounded-md border-green-300 flex flex-col items-center gap-2'>
-              <h1
-                class='text-lg text-white'
-                transition:name={`ch-name-${movie.id}`}
-              >
-                {movie.characterName}
-              </h1>
-              <div class='overflow-hidden'>
-                <a href={`/personajes/${movie.id}`}>
-                  <img
-                    transition:name={`ch-${movie.id}`}
-                    class=' hover:scale-125 transform duration-200 w-70 aspect-auto object-cover'
-                    src={movie.characterImageThumb}
-                    alt={movie.characterName}
-                  />
-                </a>
-              </div>
-            </div>
+          .filter((ch) => ch.id && ch.characterImageFull)
+          .map((ch) => (
+            <Card2
+              transition:name={`ch-${ch.id}`}
+              name={ch.characterName}
+              img={ch.characterImageFull}
+              id={ch.id} />
           ))
       }
     </section>
