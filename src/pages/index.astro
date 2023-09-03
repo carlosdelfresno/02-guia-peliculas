@@ -7,38 +7,5 @@ import Banner from '../components/Banner.astro'
 <Layout title='Welcome to Astro.'>
   <main class=''>
 	<Banner />
-    <header>
-      <h1 class='text-white text-6xl text-center my-6'>
-        Game of Thrones characters
-      </h1>
-    </header>
-    <section class='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3'>
-      {
-        data.characters
-          .filter((ch) => ch.id && ch.characterImageThumb)
-          .map((movie) => (
-            <div class='border-[1px] rounded-md border-green-300 flex flex-col items-center gap-2'>
-              <h1
-                class='text-lg text-white'
-                transition:name={`ch-name-${movie.id}`}
-              >
-                {movie.characterName}
-              </h1>
-              <div class='overflow-hidden'>
-                <a href={`/movies/${movie.id}`}>
-                  <img
-                    transition:name={`ch-${movie.id}`}
-                    class=' hover:scale-125 transform duration-200 w-70 aspect-auto object-cover'
-                    src={movie.characterImageThumb}
-                    alt={movie.characterName}
-                  />
-                </a>
-              </div>
-            </div>
-          ))
-      }
-    </section>
   </main>
 </Layout>
-
-<style></style>
