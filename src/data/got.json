@@ -287,14 +287,6 @@
       "killedBy": ["Jon Snow"]
     },
     {
-      "id": 28,
-      "characterName": "Brandon Stark",
-      "houseName": "Stark",
-      "killedBy": ["Aerys II Targaryen"],
-      "parents": ["Rickard Stark"],
-      "siblings": ["Lyanna Stark", "Benjen Stark", "Eddard Stark"]
-    },
-    {
       "id": 29,
       "characterName": "Bran Stark",
       "houseName": "Stark",

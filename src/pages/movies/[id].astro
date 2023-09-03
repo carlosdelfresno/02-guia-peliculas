@@ -1,0 +1,45 @@
+---
+import Layout from '../../layouts/Layout.astro'
+import Card from '../../components/Card.astro'
+import data from '../../data/got.json'
+
+export const getStaticPaths = () => {
+  return data.characters
+    .filter((ch) => ch.id)
+    .map((movie) => {
+      return {
+        params: {
+          id: movie.id
+        },
+        props: { movie }
+      }
+    })
+}
+
+const { movie } = Astro.props
+---
+
+<Layout title='Welcome to Astro.'>
+  <main class=''>
+    <section class=''>
+      {
+        (
+          <div class='flex flex-col gap-10'>
+            <h1
+              class='text-9xl text-white self-center'
+              transition:name={`ch-name-${movie.id}`}
+            >
+              {movie.characterName}
+            </h1>
+            <img
+              class='self-center max-h-[700px]'
+              transition:name={`ch-${movie.id}`}
+              src={movie.characterImageFull}
+              alt={movie.characterName}
+            />
+          </div>
+        )
+      }
+    </section>
+  </main>
+</Layout>
