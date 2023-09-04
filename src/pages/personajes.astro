@@ -1,19 +1,20 @@
 ---
 import Layout from '../layouts/Layout.astro'
 import data from '../data/got.json'
-import Card2 from '../components/Card2.astro';
+import Card2 from '../components/Card2.astro'
 ---
 
 <Layout title='Welcome to Astro.'>
-  <main class='relative py-10'>
-    
+  <main class='py-10'>
     <header class='text-center'>
-      <h1
-        transition:name='header'
-        class='bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-4xl font-extrabold text-transparent sm:text-6xl py-3'
+      <a href='/'
+        ><h1
+          transition:name='header'
+          class='bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-4xl font-extrabold text-transparent sm:text-6xl py-3'
+        >
+          Game of Thrones
+        </h1></a
       >
-        Game of Thrones
-      </h1>
     </header>
     <section
       class='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3'
@@ -24,9 +25,11 @@ import Card2 from '../components/Card2.astro';
           .map((ch) => (
             <Card2
               transition:name={`ch-${ch.id}`}
+              transition:animate='fade'
               name={ch.characterName}
               img={ch.characterImageFull}
-              id={ch.id} />
+              id={ch.id}
+            />
           ))
       }
     </section>

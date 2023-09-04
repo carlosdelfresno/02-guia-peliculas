@@ -4,6 +4,7 @@ const { name, img, id } = Astro.props;
 <a href={`/personajes/${id}`} class='group relative block bg-black'>
   <img
   transition:name={`ch-${id}`}
+  transition:animate="fade"
     alt={name}
     src={img}
     class='absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50'

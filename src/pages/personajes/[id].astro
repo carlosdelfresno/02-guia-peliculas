@@ -44,12 +44,14 @@ const { movie } = Astro.props
             <h1
               class='text-8xl text-white self-center'
               transition:name={`ch-name-${movie.id}`}
+              transition:animate="fade"
             >
               {movie.characterName}
             </h1>
             <img
               class='self-center max-h-[600px]'
               transition:name={`ch-${movie.id}`}
+              transition:animate="fade"
               src={movie.characterImageFull}
               alt={movie.characterName}
             />
